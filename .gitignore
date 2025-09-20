@@ -1,0 +1,22 @@
+# Cargo package manager
+/target/
+
+# Build artifacts
+**/*.rs.bk
+
+# Backup files
+*.swp
+*.swo
+
+# By default, Cargo.lock for libraries is ignored
+# (but keep it if you're writing a binary application)
+/Cargo.lock
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.iml
+
+# OS specific
+.DS_Store
+Thumbs.db
